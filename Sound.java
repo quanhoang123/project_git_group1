@@ -9,13 +9,6 @@ package git;
  *
  * @author quan.hoang22
  */
-public class Git {
-
-    /**
-     * @param args the command line arguments
-     */
-    public static void main(String[] args) {
-        // TODO code application logic here
-    }
-    
+public interface Sound {
+    abstract public void Sound();
 }
