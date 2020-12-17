@@ -9,6 +9,12 @@ package git;
  *
  * @author quan.hoang22
  */
-public class Cat extends Animal{
-    
+public class Cat extends Animal implement Sound{
+	Cat(){
+    super(String name, float canNang, float chieuCao)
+	}
+	public void Sound(){
+	System.out.println("Meo meo");
+	}
+	
 }

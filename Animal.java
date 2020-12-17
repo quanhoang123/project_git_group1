@@ -9,6 +9,13 @@ package git;
  *
  * @author quan.hoang22
  */
-abstract public class Animal {
-
+	public class Animal {
+	private String name;
+	private float canNang;
+	private float chieuCao;
+	Animal(){
+	this.name = name;
+	this.canNang = canNang;
+	this.chieuCao = chieuCao;
+	}
 }
