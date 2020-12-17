@@ -9,6 +9,6 @@ package git;
  *
  * @author quan.hoang22
  */
-public class Bird {
+public class Bird extends Animal{
     
 }
