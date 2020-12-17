@@ -11,6 +11,7 @@ package git;
  */
 public class TestClassAnimal {
     public static void main(String[] args) {
-//        Animal animal1=new Animal("");
+        Animal animal1=new Animal("Nga", 7,8);
+        System.out.println(animal1.Say());
     }
 }
