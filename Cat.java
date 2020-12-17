@@ -9,8 +9,6 @@ package git;
  *
  * @author quan.hoang22
  */
-public class TestClassAnimal {
-    public static void main(String[] args) {
-//        Animal animal1=new Animal("");
-    }
+public class Cat extends Animal{
+    
 }
